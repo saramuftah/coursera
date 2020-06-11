@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 250%;
+	text-align: center;
+	text-shadow: 2px 3px rgba(0,0,0,.4);
+	letter-spacing: 5px;
+	font-style: italic;
+	font-weight: normal;
+	padding-top: 5%;
+}
+
+html{
+	font-family: sans-serif;
+	background-color: #ffd0b6;
+
+
+}
+
+@media (min-width: 992px){
+	.MONDAY, .TUESDAY, .WEDNESDAY{
+	position: relative;
+	width: 30%;
+	height: auto;
+	float: left;
+	background-color: #acffac;
+	margin: 10% 1%;
+	padding-top: 3%;
+	border:2px solid black;
+
+
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	.MONDAY{
+		display: inline-block;
+	position: relative;
+	width: 50%;
+	height: auto;
+	float: left;
+	background-color: #acffac;
+	margin: 10% 1%;
+	padding-top: 3%;
+	border:2px solid black;
+	}
+	 .TUESDAY{
+	 display: inline-block;
+	 width: 50%;
+	height: auto;
+	float: left;
+	background-color: #acffac;
+	margin: 30% 1%;
+	padding-top: 3%;
+	border:2px solid black;
+
+
+	 }
+
+	.WEDNESDAY{
+		display: block;
+		width: 100%;
+		background-color: #acffac;
+		margin: 50% 1%;
+	padding-top: 3%;
+	border:2px solid black;
+	}
+}
+
+
+
+
+
+.MONDAY, .TUESDAY, .WEDNESDAY{
+	position: relative;
+	width: 30%;
+	height: auto;
+	float: left;
+	background-color: #acffac;
+	margin: 10% 1%;
+	padding-top: 3%;
+	border:2px solid black;
+
+
+
+}
+
+.MONDAY{
+
+	margin-left: 3%;
+}
+
+p{
+	
+	font-size: 100%;
+	padding: 5%;
+}
+
+span{
+	position: absolute;
+	font-style: italic;
+	font-weight: bold;
+	font-size:115%;
+	text-align: center;
+    width: 40%;
+	background-color:#ffb6c1;
+	top: 0;
+	right: 0;
+	padding: 2%;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	
+	
+	
+
+
+}
+
